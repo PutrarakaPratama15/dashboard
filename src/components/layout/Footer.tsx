@@ -22,8 +22,8 @@ export function Footer() {
           </div>
 
           {/* Quick Links */}
-        <div className="space-y-3 block w-full h-auto p-0 text-muted-foreground hover:text-foreground">
-            <h3 className="text-sm font-semibold">Quick Links</h3>
+        <div className="space-y-3">
+            <h3 className="text-sm font-semibold block w-full h-auto p-0 text-muted-foreground hover:text-foreground">Quick Links</h3>
           <div className="sspace-y-2 text-xs">
             <Button variant="ghost" size="sm" className="block w-full h-auto p-0 text-xs text-muted-foreground hover:text-foreground">
               Dashboard
