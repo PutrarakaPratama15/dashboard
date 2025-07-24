@@ -95,11 +95,11 @@ export function Footer() {
         <div className="mt-6 pt-6 border-t border-border">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-2 md:space-y-0">
             <div className="flex items-center space-x-4 text-xs text-muted-foreground">
-              <span>© 2024 Pupuk Kujang Industry. All rights reserved.</span>
+              <span>© 2024 PT Pupuk Kujang. All rights reserved.</span>
               <span>•</span>
-              <span>Version 2.1.0</span>
+              <span>Version 1.0.0</span>
               <span>•</span>
-              <span>Last updated: Dec 15, 2024</span>
+              <span>Last updated: July 24, 2025</span>
             </div>
             <div className="flex items-center space-x-4">
               <Button variant="ghost" size="sm" className="h-auto p-0 text-xs text-muted-foreground hover:text-foreground">
