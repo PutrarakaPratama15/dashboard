@@ -22,23 +22,24 @@ export function Footer() {
           </div>
 
           {/* Quick Links */}
-        <div className="space-y-3">
-            <h3 className="text-sm font-semibold">Quick Links</h3>
-          <div className="sspace-y-2 text-xs">
-            <Button variant="ghost" size="sm" className="block w-full h-auto p-0 text-xs text-muted-foreground hover:text-foreground">
+       <div className="space-y-3">
+          <h3 className="text-sm font-semibold">Quick Links</h3>
+          <div className="space-y-1">
+            <Button variant="ghost" size="sm" className="block w-full text-left h-auto p-0 text-xs text-muted-foreground hover:text-foreground">
               Dashboard
             </Button>
-            <Button variant="ghost" size="sm" className="block w-full h-auto p-0 text-xs text-muted-foreground hover:text-foreground justify-start">
+            <Button variant="ghost" size="sm" className="block w-full text-left h-auto p-0 text-xs text-muted-foreground hover:text-foreground">
               Announcements
             </Button>
-            <Button variant="ghost" size="sm" className="block w-full h-auto p-0 text-xs text-muted-foreground hover:text-foreground justify-start">
+            <Button variant="ghost" size="sm" className="block w-full text-left h-auto p-0 text-xs text-muted-foreground hover:text-foreground">
               Group Chat
             </Button>
-            <Button variant="ghost" size="sm" className="block w-full h-auto p-0 text-xs text-muted-foreground hover:text-foreground justify-start">
+            <Button variant="ghost" size="sm" className="block w-full text-left h-auto p-0 text-xs text-muted-foreground hover:text-foreground">
               Help & Support
             </Button>
           </div>
         </div>
+
 
 
           {/* Platform Stats */}
