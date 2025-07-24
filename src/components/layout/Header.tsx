@@ -15,7 +15,7 @@ export function Header() {
           <div className="mr-6 flex items-center space-x-2">
             <div className="h-6 w-6 rounded bg-primary"></div>
             <span className="hidden font-bold sm:inline-block">
-              Pupuk Kujang
+              PT Pupuk Kujang
             </span>
           </div>
         </div>
