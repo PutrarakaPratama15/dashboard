@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid gap-6 md:grid-cols-4">
           {/* Company Info */}
           <div className="space-y-3">
-            <h3 className="text-sm font-semibold">Pupuk Kujang Industry</h3>
+            <h3 className="text-sm font-semibold">PT Pupuk Kujang</h3>
             <div className="space-y-2 text-xs text-muted-foreground">
               <p>Professional industry communication platform</p>
               <p>Connecting teams and streamlining operations</p>
@@ -22,7 +22,7 @@ export function Footer() {
           </div>
 
           {/* Quick Links */}
-        <div className="space-y-3">
+        <div className="space-y-3 block w-full h-auto p-0 text-muted-foreground hover:text-foreground">
             <h3 className="text-sm font-semibold">Quick Links</h3>
           <div className="sspace-y-2 text-xs">
             <Button variant="ghost" size="sm" className="block w-full h-auto p-0 text-xs text-muted-foreground hover:text-foreground">
