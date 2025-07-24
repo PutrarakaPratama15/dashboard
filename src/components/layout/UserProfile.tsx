@@ -47,12 +47,12 @@ export function UserProfile() {
   })
 
   const [profile, setProfile] = useState({
-    name: 'Current User',
-    email: 'user@pupukkujang.com',
+    name: 'Putra Raka',
+    email: 'Admin@pupukkujang.com',
     role: 'Administrator',
     department: 'Operations',
     bio: 'Experienced administrator managing industry operations and communications.',
-    joinDate: 'January 2023'
+    joinDate: 'January 2025'
   })
 
   const updateSetting = (category: keyof UserSettings, key: string, value: unknown) => {
