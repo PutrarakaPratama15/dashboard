@@ -22,9 +22,9 @@ export function Footer() {
           </div>
 
           {/* Quick Links */}
-       <div className="space-y-3">
+       <div className="space-y-2">
           <h3 className="text-sm font-semibold">Quick Links</h3>
-          <div className="space-y-1">
+          <div className="space-y-2">
             <Button variant="ghost" size="sm" className="block w-full text-left h-auto p-0 text-xs text-muted-foreground hover:text-foreground">
               Dashboard
             </Button>
